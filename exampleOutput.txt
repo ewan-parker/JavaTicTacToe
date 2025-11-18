@@ -1,0 +1,106 @@
+===========================
+===== Example output: =====
+===========================
+
+   1    2    3
+1    |     |    
+ ----+-----+----
+2    |     |    
+ ----+-----+----
+3    |     |    
+ 
+Player: 1 (X) enter row (1-3): 2
+Player: 1 (X) enter column (1-3): 2
+   1    2    3
+1    |     |    
+ ----+-----+----
+2    |  X  |    
+ ----+-----+----
+3    |     |    
+ 
+Player: 2 (O) enter row (1-3): 3
+Player: 2 (O) enter column (1-3): 2
+   1    2    3
+1    |     |    
+ ----+-----+----
+2    |  X  |    
+ ----+-----+----
+3    |  O  |    
+ 
+Player: 1 (X) enter row (1-3): 1
+Player: 1 (X) enter column (1-3): 1
+   1    2    3
+1 X  |     |    
+ ----+-----+----
+2    |  X  |    
+ ----+-----+----
+3    |  O  |    
+ 
+Player: 2 (O) enter row (1-3): 3
+Player: 2 (O) enter column (1-3): 3
+   1    2    3
+1 X  |     |    
+ ----+-----+----
+2    |  X  |    
+ ----+-----+----
+3    |  O  |  O 
+ 
+Player: 1 (X) enter row (1-3): 3
+Player: 1 (X) enter column (1-3): 1
+   1    2    3
+1 X  |     |    
+ ----+-----+----
+2    |  X  |    
+ ----+-----+----
+3 X  |  O  |  O 
+ 
+Player: 2 (O) enter row (1-3): 1
+Player: 2 (O) enter column (1-3): 3
+   1    2    3
+1 X  |     |  O 
+ ----+-----+----
+2    |  X  |    
+ ----+-----+----
+3 X  |  O  |  O 
+ 
+Player: 1 (X) enter row (1-3): 3
+Player: 1 (X) enter column (1-3): 3
+
+That spot's already spoken for... Pick another. 
+
+   1    2    3
+1 X  |     |  O 
+ ----+-----+----
+2    |  X  |    
+ ----+-----+----
+3 X  |  O  |  O 
+ 
+Player: 1 (X) enter row (1-3): 2
+Player: 1 (X) enter column (1-3): 3
+   1    2    3
+1 X  |     |  O 
+ ----+-----+----
+2    |  X  |  X 
+ ----+-----+----
+3 X  |  O  |  O 
+ 
+Player: 2 (O) enter row (1-3): 2
+Player: 2 (O) enter column (1-3): 1
+   1    2    3
+1 X  |     |  O 
+ ----+-----+----
+2 O  |  X  |  X 
+ ----+-----+----
+3 X  |  O  |  O 
+ 
+Player: 1 (X) enter row (1-3): 1
+Player: 1 (X) enter column (1-3): 2
+
+How disappointing... It's a draw.
+
+   1    2    3
+1 X  |  X  |  O 
+ ----+-----+----
+2 O  |  X  |  X 
+ ----+-----+----
+3 X  |  O  |  O 
